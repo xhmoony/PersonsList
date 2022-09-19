@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E76A67CD28D7409800796271 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76A67CC28D7409800796271 /* UserViewController.swift */; };
+		E7A5457628D3A750002212AA /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A5457528D3A750002212AA /* TabBarViewController.swift */; };
+		E7C0AD7628D5DD30004E3DD9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C0AD7528D5DD30004E3DD9 /* Data.swift */; };
+		E7C0AD7828D5EF23004E3DD9 /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C0AD7728D5EF23004E3DD9 /* Persons.swift */; };
+		E7C0AD7A28D6059B004E3DD9 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C0AD7928D6059B004E3DD9 /* FirstTableViewController.swift */; };
+		E7C0AD7C28D6092A004E3DD9 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C0AD7B28D6092A004E3DD9 /* SecondTableViewController.swift */; };
 		E7EF2D8A28D3807B00946790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF2D8928D3807B00946790 /* AppDelegate.swift */; };
 		E7EF2D8C28D3807B00946790 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF2D8B28D3807B00946790 /* SceneDelegate.swift */; };
-		E7EF2D8E28D3807B00946790 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EF2D8D28D3807B00946790 /* ViewController.swift */; };
 		E7EF2D9128D3807B00946790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EF2D8F28D3807B00946790 /* Main.storyboard */; };
 		E7EF2D9328D3807D00946790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7EF2D9228D3807D00946790 /* Assets.xcassets */; };
 		E7EF2D9628D3807D00946790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EF2D9428D3807D00946790 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E76A67CC28D7409800796271 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		E7A5457528D3A750002212AA /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E7C0AD7528D5DD30004E3DD9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E7C0AD7728D5EF23004E3DD9 /* Persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
+		E7C0AD7928D6059B004E3DD9 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		E7C0AD7B28D6092A004E3DD9 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 		E7EF2D8628D3807B00946790 /* PersonsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7EF2D8928D3807B00946790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7EF2D8B28D3807B00946790 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E7EF2D8D28D3807B00946790 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7EF2D9028D3807B00946790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7EF2D9228D3807D00946790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7EF2D9528D3807D00946790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +47,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E76A67CB28D642CF00796271 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7A5457528D3A750002212AA /* TabBarViewController.swift */,
+				E7C0AD7928D6059B004E3DD9 /* FirstTableViewController.swift */,
+				E76A67CC28D7409800796271 /* UserViewController.swift */,
+				E7C0AD7B28D6092A004E3DD9 /* SecondTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		E7EF2D7D28D3807B00946790 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +79,9 @@
 			children = (
 				E7EF2D8928D3807B00946790 /* AppDelegate.swift */,
 				E7EF2D8B28D3807B00946790 /* SceneDelegate.swift */,
-				E7EF2D8D28D3807B00946790 /* ViewController.swift */,
+				E76A67CB28D642CF00796271 /* View Controllers */,
+				E7C0AD7528D5DD30004E3DD9 /* Data.swift */,
+				E7C0AD7728D5EF23004E3DD9 /* Persons.swift */,
 				E7EF2D8F28D3807B00946790 /* Main.storyboard */,
 				E7EF2D9228D3807D00946790 /* Assets.xcassets */,
 				E7EF2D9428D3807D00946790 /* LaunchScreen.storyboard */,
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7EF2D8E28D3807B00946790 /* ViewController.swift in Sources */,
+				E7C0AD7828D5EF23004E3DD9 /* Persons.swift in Sources */,
+				E76A67CD28D7409800796271 /* UserViewController.swift in Sources */,
+				E7A5457628D3A750002212AA /* TabBarViewController.swift in Sources */,
+				E7C0AD7628D5DD30004E3DD9 /* Data.swift in Sources */,
 				E7EF2D8A28D3807B00946790 /* AppDelegate.swift in Sources */,
+				E7C0AD7C28D6092A004E3DD9 /* SecondTableViewController.swift in Sources */,
 				E7EF2D8C28D3807B00946790 /* SceneDelegate.swift in Sources */,
+				E7C0AD7A28D6059B004E3DD9 /* FirstTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
